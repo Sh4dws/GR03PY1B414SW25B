@@ -4,8 +4,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Comprobante {
-    private final String id;      // 4 dígitos
-    private final String tipo;    // TRANSFERENCIA | DEPÓSITO | RETIRO
+    private final String id;      
+    private final String tipo;    
     private final String detalle;
     private final long fechaMs;
 
