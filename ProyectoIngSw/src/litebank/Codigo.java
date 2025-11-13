@@ -3,8 +3,8 @@ package litebank;
 import java.util.Random;
 
 public class Codigo {
-    private String codigo;   // 6 dígitos
-    private long venceEpoch; // ms desde epoch
+    private String codigo;   
+    private long venceEpoch; 
     private boolean usado = false;
 
     private static final Random R = new Random();
